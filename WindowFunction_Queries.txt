@@ -1,17 +1,5 @@
 --select * from branchsales
 
---drop table branchsales
-
---Alter table branchsales alter column UnitPrice numeric(10, 2)
---Alter table branchsales alter column Quantity int
---Alter table branchsales alter column Tax5_Perc numeric(5, 2)
---Alter table branchsales alter column Sales numeric(10, 2)
---Alter table branchsales alter column InvTime datetime
---Alter table branchsales alter column cogs numeric(10, 2)
---Alter table branchsales alter column GrossMarginPerc numeric(10, 2)
---Alter table branchsales alter column GrossIncome numeric(10, 2)
---Alter table branchsales alter column Rating numeric(10, 2)
-
 --Query - 1
 --**Business Case: Track cumulative revenue growth for financial reporting
 --This query is useful for retrieving daily sales from the table and calculating a running total of sales using a window function (SUM() OVER). 
